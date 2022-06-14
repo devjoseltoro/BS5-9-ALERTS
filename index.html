@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS5 ALERTS</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            background: #ffe259;
+            background: linear-gradient(to right, rgb(246, 255, 81), #ffe259);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text-center p-2">
+        <img src="img/blogger.png" width="32" alt="">
+        <img src="img/dev.png" width="32" alt="">
+        <img src="img/dcoder.png" width="32" alt="">
+        <img src="img/github.png" width="32" alt="">
+        <img src="img/gumroad.png" width="32" alt="">
+        <img src="img/youtube.png" width="32" alt="">
+        <img src="img/twitter.png" width="32" alt="">
+        <img src="img/facebook.png" width="32" alt="">
+        <img src="img/instagram.png" width="32" alt="">
+        <img src="img/tiktok.png" width="32" alt="">
+        <br>
+        <span class="mt-5"> @joseltoro</span>
+    </div>
+
+    <!-- Alertas -->
+    <div class="container mt-3">
+        <h2>Alertas</h2>
+        <p>Las alertas se crean con la clase .alert, seguida de una clase de color contextual:</p>
+        <div class="alert alert-success">
+            <strong>¡Éxito!</strong> Este cuadro de alerta podría indicar una acción exitosa o positiva.
+        </div>
+        <div class="alert alert-info">
+            <strong>¡Información!</strong> Este cuadro de alerta podría indicar un cambio o acción informativo neutral.
+        </div>
+        <div class="alert alert-warning">
+            <strong>¡Advertencia!</strong> Este cuadro de alerta podría indicar una advertencia que podría necesitar atención.
+        </div>
+        <div class="alert alert-danger">
+            <strong>¡Peligro!</strong> Este cuadro de alerta podría indicar una acción peligrosa o potencialmente negativa.
+        </div>
+        <div class="alert alert-primary">
+            <strong>¡Primario!</strong> Indica una acción importante.
+        </div>
+        <div class="alert alert-secondary">
+            <strong>¡Secundario!</strong> Indica una acción un poco menos importante.
+        </div>
+        <div class="alert alert-dark">
+            <strong>¡Oscuro!</strong> Alerta gris oscuro.
+        </div>
+        <div class="alert alert-light">
+            <strong>¡Ligero!</strong> Alerta gris claro.
+        </div>
+    </div>
+
+    <!-- Enlaces de alerta -->
+    <div class="container mt-3">
+        <h2>Enlaces de alerta</h2>
+        <p>Agregue la clase .alert-link a cualquier enlace dentro del cuadro de alerta para crear "enlaces de colores coincidentes":</p>
+        <div class="alert alert-success">
+            <strong>¡Éxito!</strong> Debería <a href="#" class="alert-link">leer este mensaje</a>.
+        </div>
+        <div class="alert alert-info">
+            <strong>¡Información!</strong> Debería <a href="#" class="alert-link">leer este mensaje</a>.
+        </div>
+        <div class="alert alert-warning">
+            <strong>¡Advertencia!</strong> Debería <a href="#" class="alert-link">leer este mensaje</a>.
+        </div>
+        <div class="alert alert-danger">
+            <strong>¡Peligro!</strong> Debería <a href="#" class="alert-link">leer este mensaje</a>.
+        </div>
+        <div class="alert alert-primary">
+            <strong>¡Primario!</strong> Debería <a href="#" class="alert-link">leer este mensaje</a>.
+        </div>
+        <div class="alert alert-secondary">
+            <strong>¡Secundario!</strong> Debería <a href="#" class="alert-link">leer este mensaje</a>.
+        </div>
+        <div class="alert alert-dark">
+            <strong>¡Oscuro!</strong> Debería <a href="#" class="alert-link">leer este mensaje</a>.
+        </div>
+        <div class="alert alert-light">
+            <strong>¡Ligero!</strong> Debería <a href="#" class="alert-link">leer este mensaje</a>.
+        </div>
+    </div>
+
+    <!-- Alertas de cierre -->
+    <div class="container mt-3">
+        <h2>Alertas de cierre</h2>
+        <p>El botón con class="btn-close" y data-bs-dismiss="alert" se usa para cerrar el cuadro de alerta.</p>
+        <p>La clase alert-dismissible alinea el botón a la derecha.</p>
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Éxito!</strong> Este cuadro de alerta podría indicar una acción exitosa o positiva.
+        </div>
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Información!</strong> Este cuadro de alerta podría indicar un cambio o acción informativo neutral.
+        </div>
+        <div class="alert alert-warning alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Advertencia!</strong> Este cuadro de alerta podría indicar una advertencia que podría necesitar atención.
+        </div>
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Danger!</strong> Este cuadro de alerta podría indicar una acción peligrosa o potencialmente negativa.
+        </div>
+        <div class="alert alert-primary alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Primario!</strong> Indica una acción importante.
+        </div>
+        <div class="alert alert-secondary alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Secundario!</strong> Indica una acción un poco menos importante.
+        </div>
+        <div class="alert alert-dark alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Oscuro!</strong> Alerta gris oscuro.
+        </div>
+        <div class="alert alert-light alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Ligero!</strong> Alerta gris claro.
+        </div>
+    </div>
+
+    <!-- Alertas animadas -->
+    <div class="container mt-3">
+        <h2>Alertas animadas</h2>
+        <p>Las clases .fade y .show agregan un efecto de desvanecimiento al cerrar el mensaje de alerta.</p>
+        <div class="alert alert-success alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Éxito!</strong> Este cuadro de alerta podría indicar una acción exitosa o positiva.
+        </div>
+        <div class="alert alert-info alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Información!</strong> Este cuadro de alerta podría indicar un cambio o acción informativo neutral.
+        </div>
+        <div class="alert alert-warning alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Advertencia!</strong> Este cuadro de alerta podría indicar una advertencia que podría necesitar atención.
+        </div>
+        <div class="alert alert-danger alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Danger!</strong> Este cuadro de alerta podría indicar una acción peligrosa o potencialmente negativa.
+        </div>
+        <div class="alert alert-primary alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Primario!</strong> Indica una acción importante.
+        </div>
+        <div class="alert alert-secondary alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Secundario!</strong> Indica una acción un poco menos importante.
+        </div>
+        <div class="alert alert-dark alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Oscuro!</strong> Alerta gris oscuro.
+        </div>
+        <div class="alert alert-light alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>¡Ligero!</strong> Alerta gris claro.
+        </div>
+    </div>
+</body>
+
+</html>
